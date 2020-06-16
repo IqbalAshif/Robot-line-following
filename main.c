@@ -82,7 +82,6 @@ void zmain(void)
     reflectance_set_threshold(9000, 9000, 11000, 11000, 9000, 9000); // set center sensor threshold to 11000 and others to 9000
     motor_start();
     bool run = false;
-    ;
     robot_run(run);
     motor_forward(0, 0);
     IR_flush();
